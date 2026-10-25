@@ -1,8 +1,7 @@
-package mx.edu.utez.proyecto1D.repository;
+package mx.edu.utez.proyecto1D.repository.estudiante;
 
 import mx.edu.utez.proyecto1D.model.estudiante.Estudiante;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 

@@ -1,9 +1,9 @@
-package mx.edu.utez.proyecto1D.service;
+package mx.edu.utez.proyecto1D.service.estudiante;
 
-import mx.edu.utez.proyecto1D.dto.RequestEstudianteDTO;
+import mx.edu.utez.proyecto1D.dto.estudiante.RequestEstudianteDTO;
 import mx.edu.utez.proyecto1D.exception.customExceptions.CustomBadRequestException;
 import mx.edu.utez.proyecto1D.model.estudiante.Estudiante;
-import mx.edu.utez.proyecto1D.repository.EstudianteRepository;
+import mx.edu.utez.proyecto1D.repository.estudiante.EstudianteRepository;
 import org.springframework.stereotype.Service;
 
 @Service

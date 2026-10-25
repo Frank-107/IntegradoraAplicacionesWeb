@@ -1,9 +1,9 @@
-package mx.edu.utez.proyecto1D.controller;
+package mx.edu.utez.proyecto1D.controller.estudiante;
 
 import jakarta.validation.Valid;
-import mx.edu.utez.proyecto1D.dto.RequestEstudianteDTO;
+import mx.edu.utez.proyecto1D.dto.estudiante.RequestEstudianteDTO;
 import mx.edu.utez.proyecto1D.model.estudiante.Estudiante;
-import mx.edu.utez.proyecto1D.service.EstudianteService;
+import mx.edu.utez.proyecto1D.service.estudiante.EstudianteService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
