@@ -1,10 +1,11 @@
 package mx.edu.utez.proyecto1D.service.carrera;
 
-import jakarta.transaction.Transactional;
+
 import mx.edu.utez.proyecto1D.model.carrera.Carrera;
 import mx.edu.utez.proyecto1D.repository.carrera.CarreraRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
